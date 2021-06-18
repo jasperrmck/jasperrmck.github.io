@@ -1,0 +1,43 @@
+#main{
+	background-color:BurlyWood;
+	width:600px;
+	height:400px;
+	border:10px solid IndianRed;
+	color:DarkBlue;
+	display:grid;
+	grid-template:1fr 5fr     / 1fr;
+				/* row height / column width */
+}
+form{
+	display:grid;
+	grid-template:1fr / 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+	padding:10px;
+}
+form > input{
+	background-color:LightGreen;
+	color:DarkBlue;
+	border:5px solid LightSeaGreen;
+	border-radius:10px;
+}
+form > input:hover{
+	background-color:LimeGreen;
+}
+#b{
+	padding:15px;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#main > div{
+	color:MidnightBlue;
+	font-size:25px;
+	border:8px solid LightPink;
+	background-color:MediumOrchid;
+}
+img{
+	width:330px;
+	margin:15px;
+}
