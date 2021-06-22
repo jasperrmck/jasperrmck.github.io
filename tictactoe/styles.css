@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+	background-color:azure;
+	display:flex;
+	justify-content:center;
+}
+main{
+	text-align:center;
+}
+h1{
+	color:Navy;
+	font-size:100px;
+	margin:30px;
+	font-family: 'Caveat', cursive;
+}
+#board{
+	display:grid;
+	width:600px;
+	height:600px;
+	grid-template:1fr 1fr 1fr / 1fr 1fr 1fr;
+	grid-gap:10px;
+	background-color:rgb(153,204,255);
+	border:20px solid rgb(153,204,255);
+	box-shadow:10px 10px 20px rgba(0,0,0,0.5);
+}
+#board > input{
+	background-color:rgb(139,139,139);
+	border-radius:20px;
+	border:none;
+	font-size:120px;
+}
+#board > input:hover{
+	background-color:rgb(255,89,84);
+}
+input{
+    font-family: 'Permanent Marker', cursive;
+}
+button{
+	margin:30px;
+	padding:20px;
+	font-size:30px;
+	background-color:MediumTurquoise;
+	font-family: 'Permanent Marker', cursive;
+}
+#container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:rgba(0,0,0,0.8);
+	display:none;
+	justify-content:center;
+	align-items:center;
+}
+#popup{
+	width:600px;
+	height:600px;
+	background-color:white;
+	border-radius:20px;
+	text-align:center;
+	position:relative;
+}
+#cat{
+	width:65%;
+}
+#x{
+	width:40px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#popup > h2{
+	line-height:400px;
+	font-size:100px;
+	color:rgb(0,0,255);
+}
